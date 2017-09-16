@@ -1,6 +1,6 @@
 require 'json'
 
-builds = JSON.load(STDIN.read)["builds"]
+builds = JSON.load(STDIN.read)#["builds"]
 
 $stderr.puts builds.size
 data = builds#[0...68]
